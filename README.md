@@ -1,5 +1,7 @@
 # Redux-serve cli
-## Smart CLI to create store, actions, reducer and saga
+
+Smart CLI service to create store, actions, reducer and saga with dynamic options
+
 ![Redux-util cli](https://raw.githubusercontent.com/khotharish1207/redux-serve/master/assets/redux-serve.JPG)
 
 ### Features
@@ -145,3 +147,8 @@ redux-serve createactions
 This command will create actions file with name `myCustomActions.js` to `CWD/redux/actions` with the contents of `./path/to/your/desired/action-file.js`
 
 Note: All `path` provided to the options should relative to `CWD`
+
+## Author
+
+- **Harish S Khot**
+

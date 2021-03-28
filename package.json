@@ -1,7 +1,7 @@
 {
   "name": "redux-serve",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.3",
+  "description": "Smart CLI to create store, actions, reducer and saga",
   "main": "./bin/launcher-cli.js",
   "scripts": {
     "build": "./node_modules/.bin/babel src -d lib",
@@ -17,6 +17,18 @@
   "author": "Harish S Khot",
   "bin": "./bin/launcher-cli.js",
   "preferGlobal": true,
+  "keywords": [
+    "react",
+    "redux",
+    "redux actions",
+    "create reducer",
+    "create saga",
+    "redux store",
+    "redux serve",
+    "redux utility",
+    "redux-saga",
+    "react-redux"
+  ],
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.0",
