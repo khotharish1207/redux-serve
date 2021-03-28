@@ -1,4 +1,5 @@
 import execa from 'execa';
+import path from 'path'
 
 async function installDepedencies(options) {
     const result = await execa('npm', ['install  redux redux-devtools-extension redux-saga react-redux'], {

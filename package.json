@@ -1,6 +1,6 @@
 {
   "name": "redux-serve",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Smart CLI to create store, actions, reducer and saga",
   "main": "./bin/launcher-cli.js",
   "scripts": {

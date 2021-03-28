@@ -10,7 +10,7 @@ export async function createstore(options = {}) {
         ...options,
     };
 
-    let targetDirectory =path.resolve(process.cwd(), './redux')
+    let targetDirectory = path.resolve(process.cwd())
 
     if (launcher.config.get("path")) {
       targetDirectory = path.resolve(
@@ -22,7 +22,7 @@ export async function createstore(options = {}) {
     await isAccessible(targetDirectory)
     options.targetDirectory = targetDirectory;
 
-    const templateDir = path.resolve(__dirname, '../template', 'redux');
+    const templateDir = path.resolve(__dirname, '../template');
     options.templateDirectory = templateDir;
 
     await isAccessible(templateDir)
