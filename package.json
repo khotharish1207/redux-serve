@@ -1,0 +1,38 @@
+{
+  "name": "redux-serve",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./bin/launcher-cli.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src -d lib",
+    "build-watch": "./node_modules/.bin/babel src -d lib --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khotharish1207/redux-serve.git"
+  },
+  "bugs": {
+    "url": "https://github.com/khotharish1207/redux-serve/issues"
+  },
+  "author": "Harish S Khot",
+  "bin": "./bin/launcher-cli.js",
+  "preferGlobal": true,
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "execa": "^5.0.0",
+    "ncp": "^2.0.0",
+    "nopt": "^5.0.0",
+    "npmlog": "^4.1.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.1",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-transform-runtime": "^7.13.10",
+    "@babel/preset-env": "^7.13.5",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-transform-class-properties": "^6.24.1"
+  }
+}
